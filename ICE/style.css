@@ -1,0 +1,38 @@
+body {
+    background-color: #fca6c9;
+    color: white;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quote {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    color: black;
+}
+
+ol {
+    text-align: left;
+    padding-left: 15px;
+    color: black;
+}
+
+li {
+    padding: 2px;
+}
+
+#title {
+    color: white;
+}
+
+#title:hover {
+    color: black;
+}
+
+img {
+    width: 120px;
+}
