@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Source+Sans+Pro:ital@0;1&display=swap');
+
 :root {
     --primary-color: #4EA8DE   ;
     --secondary-color: #49D49D ;
@@ -7,6 +9,14 @@
 
 body {
     background-color: var(--primary-color);
+    font-family: "Source Sans Pro", Tahoma, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -22,6 +32,7 @@ nav a {
     text-align: center;
     color: var(--accent1-color);
     text-decoration: none;
+    padding: 15px 35px;
 }
 
 nav a:hover {
@@ -41,6 +52,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: var(--secondary-color);
@@ -50,6 +65,10 @@ main section {
     background-color: var(--secondary-color);
     color: var(--accent1-color);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -59,19 +78,26 @@ main section {
 
 .msg {
     background-color: var(--accent2-color);
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: white;
+    font-family: "Rock Salt", "Brush Script MT", cursive;
 }
 
 .msg p {
     color: white;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: var(--accent1-color);
     color: lightgray;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -91,8 +117,15 @@ footer a:hover {
     color: var(--secondary-color);
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .home-title {
     color: white;
+    font-family: "Rock Salt", "Brush Script MT", cursive;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -103,8 +136,21 @@ h4 {
     width: 100px;
 }
 
+#logo-link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid var(--accent1-color);
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
